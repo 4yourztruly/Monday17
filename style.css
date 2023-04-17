@@ -1,0 +1,92 @@
+/* kommentar för CSS */
+/* ta bort extra utrymme i body */
+body {
+
+    margin: 0;
+
+}
+
+main {
+    flex: 1;
+
+}
+
+body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        font-family:Verdana;
+
+}
+
+.my-class {
+
+    color:green;
+}
+
+#my-id {
+        color: red;
+
+}
+
+.two.classes {
+
+    color: blue;
+}
+
+header {
+
+    background-color:greenyellow;
+    padding: 20px;
+}
+
+header h1 {
+
+    font-family:Verdana;
+    font-size:45px;
+    margin: 0;
+    margin-bottom:10px;
+}
+
+header nav {
+
+    margin-left:-12px;
+}
+
+header nav a {
+
+        display:inline-block;
+        padding: 0 15px;
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+Header nav a:hover {
+
+    color:pink;
+}
+
+header nav a.active {
+
+    color:blue;
+}
+
+h1, h2 {
+
+    color:red;
+    font-family:Verdana;
+    line-height:130%;
+    margin: 0 auto;
+    max-width:65px;
+}
+
+main {
+
+    padding: 20px;
+    font-family:verdana;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 65px;
+}
